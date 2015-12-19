@@ -1,7 +1,7 @@
 {
   "name": "njssp-compiler",
   "version": "0.0.0-alpha.0",
-  "description": "Compiler for Node.js Server Pages - Templating Engine module for creating dynamic, server side evaluated websites and web applications with node"
+  "description": "Compiler for Node.js Server Pages - Templating Engine module for creating dynamic, server side evaluated websites and web applications with node",
   "keywords": [
     "njssp",
     "compiler",
