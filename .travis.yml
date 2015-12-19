@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "4.0"
+  - "4.1"
+  - "5.0"
+  - "5.1"
+
+install:
+  - "nvm install 5.0"
+  - "nvm install 5.1"
+  - "npm install"
+
+script: "npm run-script test-ci"
+
+after_script: "npm run-script send-coverage"
