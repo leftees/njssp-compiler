@@ -1,0 +1,46 @@
+{
+  "name": "njssp-compiler",
+  "version": "0.0.0-alpha.0",
+  "description": "Compiler for Node.js Server Pages - Templating Engine module for creating dynamic, server side evaluated websites and web applications with node"
+  "keywords": [
+    "njssp",
+    "compiler",
+    "templating engine",
+    "Server Pages",
+    "Websites",
+    "Web Applications"
+  ],
+  "bugs": {
+    "url": "https://github.com/DevWurm/njssp-compiler/issues",
+    "email": "devwurm@gmx.net"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "DevWurm",
+    "email": "devwurm@gmx.net",
+    "url": "https://github.com/DevWurm/"
+  },
+  "files": [
+    "lib/",
+    "njssp-compiler.js"
+  ],
+  "main": "njssp-compiler.js",
+  "repository": "DevWurm/njssp-compiler",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "coveralls": "^2.11.4",
+    "eslint": "^1.10.2",
+    "istanbul": "^0.4.0",
+    "mocha": "^2.3.3"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "test-ci": "istanbul cover _mocha --report lcovonly",
+    "coverage": "istanbul cover _mocha",
+    "send-coverage": "cat ./coverage/lcov.info | coveralls",
+    "lint": "eslint lib/** test/**"
+  }
+}
