@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="72cm" height="47cm" viewBox="43 139 1424 926" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="281.059" y="140.311" width="840.352" height="923.35"/>
+  <g>
+    <ellipse style="fill: #ffffff" cx="69.1" cy="678.046" rx="6" ry="6"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="69.1" cy="678.046" rx="6" ry="6"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="45.1" y1="690.046" x2="93.1" y2="690.046"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="69.1" y1="684.046" x2="69.1" y2="714.046"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="69.1" y1="714.046" x2="45.1" y2="740.046"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="69.1" y1="714.046" x2="93.1" y2="740.046"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="69.1" y="763.946">
+      <tspan x="69.1" y="763.946">Caller</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="1432.27" cy="678.138" rx="6" ry="6"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="1432.27" cy="678.138" rx="6" ry="6"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1408.27" y1="690.138" x2="1456.27" y2="690.138"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1432.27" y1="684.138" x2="1432.27" y2="714.138"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1432.27" y1="714.138" x2="1408.27" y2="740.138"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1432.27" y1="714.138" x2="1456.27" y2="740.138"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1432.27" y="764.038">
+      <tspan x="1432.27" y="764.038">njssp Page</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="837.878" cy="260.771" rx="125.725" ry="41.9083"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="837.878" cy="260.771" rx="125.725" ry="41.9083"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="837.878" y="264.671">
+      <tspan x="837.878" y="264.671">Execute JS code in HTML Pages </tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1407.27" y1="660.138" x2="970.839" y2="267.284"/>
+    <polygon style="fill: #000000" points="965.265,262.267 976.043,265.241 970.839,267.284 969.352,272.673 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="965.265,262.267 976.043,265.241 970.839,267.284 969.352,272.673 "/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="852.548" cy="371.646" rx="160.525" ry="53.5083"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="852.548" cy="371.646" rx="160.525" ry="53.5083"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="852.548" y="375.546">
+      <tspan x="852.548" y="375.546">Modify Page content through JS code trace</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1407.27" y1="660.138" x2="1020.93" y2="377.396"/>
+    <polygon style="fill: #000000" points="1014.88,372.966 1025.9,374.837 1020.93,377.396 1019.99,382.907 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1014.88,372.966 1025.9,374.837 1020.93,377.396 1019.99,382.907 "/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="848.873" cy="531.198" rx="156.75" ry="52.25"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="848.873" cy="531.198" rx="156.75" ry="52.25"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="848.873" y="535.098">
+      <tspan x="848.873" y="535.098">Insert expression result directly into Page</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1407.27" y1="768.138" x2="1014.01" y2="536.145"/>
+    <polygon style="fill: #000000" points="1007.55,532.334 1018.7,533.109 1014.01,536.145 1013.62,541.722 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1007.55,532.334 1018.7,533.109 1014.01,536.145 1013.62,541.722 "/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="849.623" cy="646.289" rx="115.125" ry="38.375"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="849.623" cy="646.289" rx="115.125" ry="38.375"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="849.623" y="650.189">
+      <tspan x="849.623" y="650.189">Write into Page from JS code</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1407.27" y1="768.138" x2="974.135" y2="648.873"/>
+    <polygon style="fill: #000000" points="966.904,646.882 977.873,644.716 974.135,648.873 975.218,654.358 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="966.904,646.882 977.873,644.716 974.135,648.873 975.218,654.358 "/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="857.941" cy="862.375" rx="217.85" ry="72.6167"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="857.941" cy="862.375" rx="217.85" ry="72.6167"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="857.941" y="866.275">
+      <tspan x="857.941" y="866.275">Define overwritable sections (gets overwritten by inheriting)</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1457.27" y1="768.138" x2="1085.24" y2="860.04"/>
+    <polygon style="fill: #000000" points="1077.96,861.838 1086.47,854.586 1085.24,860.04 1088.87,864.294 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1077.96,861.838 1086.47,854.586 1085.24,860.04 1088.87,864.294 "/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="842.887" cy="735.618" rx="83.75" ry="27.9167"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="842.887" cy="735.618" rx="83.75" ry="27.9167"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="842.887" y="739.518">
+      <tspan x="842.887" y="739.518">Inherhit from page</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1457.27" y1="768.138" x2="936.354" y2="736.214"/>
+    <polygon style="fill: #000000" points="928.868,735.755 939.156,731.376 936.354,736.214 938.544,741.357 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="928.868,735.755 939.156,731.376 936.354,736.214 938.544,741.357 "/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="846.405" cy="1000.25" rx="116.925" ry="38.975"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="846.405" cy="1000.25" rx="116.925" ry="38.975"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="846.405" y="1004.15">
+      <tspan x="846.405" y="1004.15">Insert Server-Side comments</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1457.27" y1="768.138" x2="972.141" y2="996.108"/>
+    <polygon style="fill: #000000" points="965.354,999.298 972.278,990.519 972.141,996.108 976.531,999.57 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="965.354,999.298 972.278,990.519 972.141,996.108 976.531,999.57 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="473.241" y="142.278">
+    <tspan x="473.241" y="142.278"></tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="449.915" y="134.959">
+    <tspan x="449.915" y="134.959"></tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="458.557" y="159.01">
+    <tspan x="458.557" y="159.01"></tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="744.841" y="737">
+    <tspan x="744.841" y="737"></tspan>
+  </text>
+  <text font-size="22.5778" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="388.633" y="177.825">
+    <tspan x="388.633" y="177.825">njssp Compiler</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="744.841" y="737">
+    <tspan x="744.841" y="737"></tspan>
+  </text>
+  <g>
+    <ellipse style="fill: #ffffff" cx="465.199" cy="441.105" rx="84.1" ry="28.0333"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="465.199" cy="441.105" rx="84.1" ry="28.0333"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="465.199" y="445.005">
+      <tspan x="465.199" y="445.005">Compile File to File</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="474.599" cy="513.905" rx="92.5" ry="30.8333"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="474.599" cy="513.905" rx="92.5" ry="30.8333"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="474.599" y="517.805">
+      <tspan x="474.599" y="517.805">Compile String to File</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="69.1" y1="660.046" x2="373.13" y2="446.697"/>
+    <polygon style="fill: #000000" points="379.269,442.389 373.955,452.226 373.13,446.697 368.211,444.041 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="379.269,442.389 373.955,452.226 373.13,446.697 368.211,444.041 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="69.1" y1="660.046" x2="373.277" y2="518.024"/>
+    <polygon style="fill: #000000" points="380.073,514.851 373.127,523.612 373.277,518.024 368.897,514.551 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="380.073,514.851 373.127,523.612 373.277,518.024 368.897,514.551 "/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="483.693" cy="589.762" rx="92.5" ry="30.8333"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="483.693" cy="589.762" rx="92.5" ry="30.8333"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="483.693" y="593.662">
+      <tspan x="483.693" y="593.662">Compile File to String</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="485.459" cy="666.924" rx="100.9" ry="33.6333"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="485.459" cy="666.924" rx="100.9" ry="33.6333"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="485.459" y="670.824">
+      <tspan x="485.459" y="670.824">Compile String to String</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="94.1" y1="660.046" x2="381.718" y2="592.003"/>
+    <polygon style="fill: #000000" points="389.017,590.277 380.437,597.445 381.718,592.003 378.134,587.713 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="389.017,590.277 380.437,597.445 381.718,592.003 378.134,587.713 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="94.1" y1="660.046" x2="374.826" y2="666.694"/>
+    <polygon style="fill: #000000" points="382.324,666.871 372.208,671.633 374.826,666.694 372.445,661.636 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="382.324,666.871 372.208,671.633 374.826,666.694 372.445,661.636 "/>
+  </g>
+</svg>
