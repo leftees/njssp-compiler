@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="135cm" height="112cm" viewBox="-523 62 2686 2231" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="256.324" y="158.905" width="967.814" height="2133.06"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="256.324" y="158.905" width="967.814" height="2133.06"/>
+    <rect style="fill: #ffffff" x="256.324" y="138.905" width="65.6" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="256.324" y="138.905" width="65.6" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="258.324" y="153.905">frontend</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="289.038" y="193.871" width="660.303" height="523.749"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="289.038" y="193.871" width="660.303" height="523.749"/>
+    <rect style="fill: #ffffff" x="289.038" y="173.871" width="104.1" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="289.038" y="173.871" width="104.1" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="291.038" y="188.871">preprocessing</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="368.085" y="226.9" width="387.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="368.085" y="226.9" width="387.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="561.735" y="245.9">PagePreprocessor</text>
+    <rect style="fill: #ffffff" x="368.085" y="254.9" width="387.3" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="368.085" y="254.9" width="387.3" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="371.085" y="268.9">-pageString: String</text>
+    <rect style="fill: #ffffff" x="368.085" y="274.9" width="387.3" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="368.085" y="274.9" width="387.3" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="371.085" y="288.9">+constructor(pageString:String): PagePreprocessor</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="371.085" y1="290.5" x2="748.385" y2="290.5"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="371.085" y="304.9">+preprocess(callback:function): PagePreprocessor</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="371.085" y="320.9">+getPageString(): String</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="373.222" y="399.198" width="356.5" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="373.222" y="399.198" width="356.5" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="551.472" y="415.198">&lt;&lt;interface&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="551.472" y="434.198">Preprocessor</text>
+    <rect style="fill: #ffffff" x="373.222" y="443.198" width="356.5" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="373.222" y="443.198" width="356.5" height="8"/>
+    <rect style="fill: #ffffff" x="373.222" y="451.198" width="356.5" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="373.222" y="451.198" width="356.5" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="376.222" y="465.198">+constructor(pageString:String): Preprocessor</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="376.222" y1="466.798" x2="722.722" y2="466.798"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="376.222" y="481.198">+preprocess(): String</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="755.385,240.9 776.385,240.9 776.385,421.198 734.194,421.198 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="747.958,413.198 731.958,421.198 747.958,429.198 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="778.385" y="331.049"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="759.385" y="237.9"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="749.722" y="418.198">-preprocessors</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="749.722" y="434.198">0..n</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="361.226" y="567.134" width="379.6" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="361.226" y="567.134" width="379.6" height="70"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="551.026" y="586.134">TagPreprocessor</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="551.026" y="601.634">Convert njssp</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="551.026" y="615.634">tags into</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="551.026" y="629.634">regular xml tags</text>
+    <rect style="fill: #ffffff" x="361.226" y="637.134" width="379.6" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="361.226" y="637.134" width="379.6" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="364.226" y="651.134">-pageString: String</text>
+    <rect style="fill: #ffffff" x="361.226" y="657.134" width="379.6" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="361.226" y="657.134" width="379.6" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="364.226" y="671.134">+constructor(pageString:String): TagPreprocessor</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="364.226" y1="672.734" x2="733.826" y2="672.734"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="364.226" y="687.134">+preprocess(): String</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="551.472,505.434 551.472,535.166 551.026,535.166 551.026,567.134 "/>
+    <polygon style="fill: #ffffff" points="559.472,505.434 551.472,489.434 543.472,505.434 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="559.472,505.434 551.472,489.434 543.472,505.434 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="755.385,240.9 880.3,240.9 880.3,602.134 747.531,602.134 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="760.179,597.134 744.179,602.134 760.179,607.134 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="290.746" y="761.56" width="662.956" height="195.613"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="290.746" y="761.56" width="662.956" height="195.613"/>
+    <rect style="fill: #ffffff" x="290.746" y="741.56" width="57.9" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="290.746" y="741.56" width="57.9" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="292.746" y="756.56">parsing</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="362.668" y="790.458" width="341.1" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="362.668" y="790.458" width="341.1" height="70"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="533.218" y="809.458">PageParser</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="533.218" y="824.958">Parses an njssp</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="533.218" y="838.958">page into an xml</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="533.218" y="852.958">Document</text>
+    <rect style="fill: #ffffff" x="362.668" y="860.458" width="341.1" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="362.668" y="860.458" width="341.1" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="365.668" y="874.458">-pageString: String</text>
+    <rect style="fill: #ffffff" x="362.668" y="880.458" width="341.1" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="362.668" y="880.458" width="341.1" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="365.668" y="894.458">+constructor(pageString:String): PageParser</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="365.668" y1="896.058" x2="696.768" y2="896.058"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="365.668" y="910.458">+parse(callback:Function): PageParser</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="365.668" y="926.458">+getPageString(): String</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-521.541" y="162.924" width="612.864" height="243.183"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-521.541" y="162.924" width="612.864" height="243.183"/>
+    <rect style="fill: #ffffff" x="-521.541" y="142.924" width="73.3" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-521.541" y="142.924" width="73.3" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-519.541" y="157.924">interface</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-490.662" y="204.054" width="541.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-490.662" y="204.054" width="541.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-220.012" y="223.054">PageCompiler</text>
+    <rect style="fill: #ffffff" x="-490.662" y="232.054" width="541.3" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-490.662" y="232.054" width="541.3" height="8"/>
+    <rect style="fill: #ffffff" x="-490.662" y="240.054" width="541.3" height="132"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-490.662" y="240.054" width="541.3" height="132"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-487.662" y="254.054">+constructor(): Interpreter</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="-487.662" y1="255.654" x2="-279.762" y2="255.654"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-487.662" y="270.054">+compileFile(path:String,outputPath:String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-487.662" y="286.054">             callback:Function): PageCompiler</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-487.662" y="302.054">+compileString(string:String,outputPath:String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-487.662" y="318.054">               callback:Function): PageCompiler</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-487.662" y="334.054">+compileFileToString(path:String,callback:Function): PageCompiler</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-487.662" y="350.054">+compileStringToString(string:String,callback:Function): PageCompiler</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-487.662" y="366.054">-compile(error:Error,string:String,callback:Function): PageCompiler</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="50.6385,218.054 331.234,218.054 331.234,240.9 361.38,240.9 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="348.732,245.9 364.732,240.9 348.732,235.9 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="50.6385,218.054 311.605,218.054 311.605,825.458 355.963,825.458 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="343.315,830.458 359.315,825.458 343.315,820.458 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1451.92" y="160.737" width="709.562" height="1401.61"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1451.92" y="160.737" width="709.562" height="1401.61"/>
+    <rect style="fill: #ffffff" x="1451.92" y="140.737" width="57.9" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1451.92" y="140.737" width="57.9" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1453.92" y="155.737">backend</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1487.59" y="598.353" width="636.323" height="727.891"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1487.59" y="598.353" width="636.323" height="727.891"/>
+    <rect style="fill: #ffffff" x="1487.59" y="578.353" width="88.7" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1487.59" y="578.353" width="88.7" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1489.59" y="593.353">transpiling</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1535.3" y="633.032" width="402.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1535.3" y="633.032" width="402.7" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1736.65" y="652.032">PageTranspiler</text>
+    <rect style="fill: #ffffff" x="1535.3" y="661.032" width="402.7" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1535.3" y="661.032" width="402.7" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1538.3" y="675.032">-pageDocument: Document</text>
+    <rect style="fill: #ffffff" x="1535.3" y="681.032" width="402.7" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1535.3" y="681.032" width="402.7" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1538.3" y="695.032">+constructor(pageDocument:Document): PageTranspiler</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1538.3" y1="696.632" x2="1931" y2="696.632"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1538.3" y="711.032">+transpile(callback:Function): PageTranspiler</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1538.3" y="727.032">-transpileNodeList(nodeList:NodeList): String</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1486.11" y="211.687" width="633.58" height="315.084"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1486.11" y="211.687" width="633.58" height="315.084"/>
+    <rect style="fill: #ffffff" x="1486.11" y="191.687" width="57.9" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1486.11" y="191.687" width="57.9" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1488.11" y="206.687">linking</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1529.97" y="243.191" width="510.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1529.97" y="243.191" width="510.5" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1785.22" y="262.191">PageLinker</text>
+    <rect style="fill: #ffffff" x="1529.97" y="271.191" width="510.5" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1529.97" y="271.191" width="510.5" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1532.97" y="285.191">-pageDocument: Document</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1532.97" y="301.191">-searchPath: String</text>
+    <rect style="fill: #ffffff" x="1529.97" y="307.191" width="510.5" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1529.97" y="307.191" width="510.5" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1532.97" y="321.191">+constructor(pageDocument:Document,searchPath:String): PageLinker</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1532.97" y="337.191">+link(pageDocument:Document,callback:Function): PageLinker</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1529.56" y="389.162" width="533.6" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1529.56" y="389.162" width="533.6" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1796.36" y="408.162">InheritanceMerger</text>
+    <rect style="fill: #ffffff" x="1529.56" y="417.162" width="533.6" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1529.56" y="417.162" width="533.6" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1532.56" y="431.162">-parentNode: Node</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1532.56" y="447.162">-inheritingNode: Node</text>
+    <rect style="fill: #ffffff" x="1529.56" y="453.162" width="533.6" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1529.56" y="453.162" width="533.6" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1532.56" y="467.162">+constructor(parentNode:Node,inheritingNode:Node): InheritanceMerger</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1532.56" y1="468.762" x2="2056.16" y2="468.762"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1532.56" y="483.162">+merge(): Node</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="2040.47,257.191 2092.16,257.191 2092.16,403.162 2069.87,403.162 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2082.52,398.162 2066.52,403.162 2082.52,408.162 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="50.6385,218.054 50.6385,218.402 163.498,218.402 163.498,63.3421 1374.31,63.3421 1374.31,257.191 1523.26,257.191 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1510.61,262.191 1526.61,257.191 1510.61,252.191 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="292.103" y="1010.38" width="910.035" height="1253.83"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="292.103" y="1010.38" width="910.035" height="1253.83"/>
+    <rect style="fill: #ffffff" x="292.103" y="990.383" width="81" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="292.103" y="990.383" width="81" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="294.103" y="1005.38">validation</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="368.211" y="1045.46" width="395" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="368.211" y="1045.46" width="395" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="565.711" y="1064.46">PageStructureValidator</text>
+    <rect style="fill: #ffffff" x="368.211" y="1073.46" width="395" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="368.211" y="1073.46" width="395" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="371.211" y="1087.46">-pageDocument: Document</text>
+    <rect style="fill: #ffffff" x="368.211" y="1093.46" width="395" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="368.211" y="1093.46" width="395" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="371.211" y="1107.46">+constructor(pageDocument:Document): PageValidator</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="371.211" y1="1109.06" x2="756.211" y2="1109.06"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="371.211" y="1123.46">+validate(callback:Function): PageValidator</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="363.636" y="1203.47" width="464.3" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="363.636" y="1203.47" width="464.3" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="595.786" y="1219.47">&lt;&lt;interface&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="595.786" y="1238.47">NodeStructureValidator</text>
+    <rect style="fill: #ffffff" x="363.636" y="1247.47" width="464.3" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="363.636" y="1247.47" width="464.3" height="8"/>
+    <rect style="fill: #ffffff" x="363.636" y="1255.47" width="464.3" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="363.636" y="1255.47" width="464.3" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="366.636" y="1269.47">+constructor(pageDocument:Document): NodeStructureValidator</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="366.636" y1="1271.07" x2="820.936" y2="1271.07"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="366.636" y="1285.47">+validate(): Boolean/Error</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="763.211,1059.46 863.936,1059.46 863.936,1225.47 832.408,1225.47 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="846.172,1217.47 830.172,1225.47 846.172,1233.47 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="847.936" y="1222.47">-validators</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="847.936" y="1238.47">0..n</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="328.395" y="1391.89" width="556.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="328.395" y="1391.89" width="556.7" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="606.745" y="1410.89">BlockSnippetNodeStructureValidator</text>
+    <rect style="fill: #ffffff" x="328.395" y="1419.89" width="556.7" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="328.395" y="1419.89" width="556.7" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="331.395" y="1433.89">-pageDocument: Document</text>
+    <rect style="fill: #ffffff" x="328.395" y="1439.89" width="556.7" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="328.395" y="1439.89" width="556.7" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="331.395" y="1453.89">+constructor(pageDocument:Document): BlockSnippetNodeStructureValidator</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="331.395" y="1469.89">+validate(): Boolean/Error</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="330.103" y="1555.49" width="564.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="330.103" y="1555.49" width="564.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="612.303" y="1574.49">DirectSnippetNodeStructureValidator</text>
+    <rect style="fill: #ffffff" x="330.103" y="1583.49" width="564.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="330.103" y="1583.49" width="564.4" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="333.103" y="1597.49">-pageDocument: Document</text>
+    <rect style="fill: #ffffff" x="330.103" y="1603.49" width="564.4" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="330.103" y="1603.49" width="564.4" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="333.103" y="1617.49">+constructor(pageDocument:Document): DirectSnippetNodeStructureValidator</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="333.103" y="1633.49">+validate(): Boolean/Error</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="330.72" y="1693.06" width="564.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="330.72" y="1693.06" width="564.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="612.92" y="1712.06">ExtendSnippetNodeStructureValidator</text>
+    <rect style="fill: #ffffff" x="330.72" y="1721.06" width="564.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="330.72" y="1721.06" width="564.4" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="333.72" y="1735.06">-pageDocument: Document</text>
+    <rect style="fill: #ffffff" x="330.72" y="1741.06" width="564.4" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="330.72" y="1741.06" width="564.4" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="333.72" y="1755.06">+constructor(pageDocument:Document): ExtendSnippetNodeStructureValidator</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="333.72" y="1771.06">+validate(): Boolean/Error</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="335.814" y="1836.51" width="579.8" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="335.814" y="1836.51" width="579.8" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="625.714" y="1855.51">TemplateSnippetNodeStructureValidator</text>
+    <rect style="fill: #ffffff" x="335.814" y="1864.51" width="579.8" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="335.814" y="1864.51" width="579.8" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="338.814" y="1878.51">-pageDocument: Document</text>
+    <rect style="fill: #ffffff" x="335.814" y="1884.51" width="579.8" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="335.814" y="1884.51" width="579.8" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="338.814" y="1898.51">+constructor(pageDocument:Document): TemplateSnippetNodeStructureValidator</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="338.814" y="1914.51">+validate(): Boolean/Error</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="338.486" y="1993.19" width="587.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="338.486" y="1993.19" width="587.5" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="632.236" y="2012.19">OverwriteSnippetNodeStructureValidator</text>
+    <rect style="fill: #ffffff" x="338.486" y="2021.19" width="587.5" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="338.486" y="2021.19" width="587.5" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="341.486" y="2035.19">-pageDocument: Document</text>
+    <rect style="fill: #ffffff" x="338.486" y="2041.19" width="587.5" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="338.486" y="2041.19" width="587.5" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="341.486" y="2055.19">+constructor(pageDocument:Document): OverwriteSnippetNodeStructureValidator</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="341.486" y="2071.19">+validate(): Boolean/Error</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="337.38" y="2124.25" width="572.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="337.38" y="2124.25" width="572.1" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="623.43" y="2143.25">CommentSnippetNodeStructureValidator</text>
+    <rect style="fill: #ffffff" x="337.38" y="2152.25" width="572.1" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="337.38" y="2152.25" width="572.1" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="340.38" y="2166.25">-pageDocument: Document</text>
+    <rect style="fill: #ffffff" x="337.38" y="2172.25" width="572.1" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="337.38" y="2172.25" width="572.1" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="340.38" y="2186.25">+constructor(pageDocument:Document): CommentSnippetNodeStructureValidator</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="340.38" y="2202.25">+validate(): Boolean/Error</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="595.786,1309.7 595.786,1379.07 606.745,1379.07 606.745,1391.89 "/>
+    <polygon style="fill: #ffffff" points="603.786,1309.7 595.786,1293.7 587.786,1309.7 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="603.786,1309.7 595.786,1293.7 587.786,1309.7 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="595.786,1309.7 595.786,1366.07 912.957,1366.07 912.957,1494.79 612.303,1494.79 612.303,1555.49 "/>
+    <polygon style="fill: #ffffff" points="603.786,1309.7 595.786,1293.7 587.786,1309.7 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="603.786,1309.7 595.786,1293.7 587.786,1309.7 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="595.786,1309.7 595.786,1355.07 935.143,1355.07 935.143,1657.07 612.92,1657.07 612.92,1693.06 "/>
+    <polygon style="fill: #ffffff" points="603.786,1309.7 595.786,1293.7 587.786,1309.7 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="603.786,1309.7 595.786,1293.7 587.786,1309.7 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="595.786,1309.7 595.786,1344.07 956.143,1344.07 956.143,1810.56 617.651,1810.56 617.651,1844.97 "/>
+    <polygon style="fill: #ffffff" points="603.786,1309.7 595.786,1293.7 587.786,1309.7 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="603.786,1309.7 595.786,1293.7 587.786,1309.7 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="595.786,1309.7 595.786,1332.07 972.355,1332.07 972.355,1967.56 632.236,1967.56 632.236,1993.19 "/>
+    <polygon style="fill: #ffffff" points="603.786,1309.7 595.786,1293.7 587.786,1309.7 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="603.786,1309.7 595.786,1293.7 587.786,1309.7 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="595.786,1309.7 595.786,1322.57 987.622,1322.57 987.622,2089.96 623.43,2089.96 623.43,2124.25 "/>
+    <polygon style="fill: #ffffff" points="603.786,1309.7 595.786,1293.7 587.786,1309.7 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="603.786,1309.7 595.786,1293.7 587.786,1309.7 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="768.912,1058.78 1019.2,1058.78 1019.2,1405.89 891.8,1405.89 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="904.447,1400.89 888.447,1405.89 904.447,1410.89 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="763.211,1059.46 1043.84,1059.46 1043.84,1569.49 901.208,1569.49 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="913.855,1564.49 897.855,1569.49 913.855,1574.49 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="763.211,1059.46 1073.24,1059.46 1073.24,1707.06 901.825,1707.06 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="914.472,1702.06 898.472,1707.06 914.472,1712.06 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="763.211,1059.46 1100.11,1059.46 1100.11,1850.51 922.319,1850.51 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="934.966,1845.51 918.966,1850.51 934.966,1855.51 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="763.211,1059.46 1126.98,1059.46 1126.98,2007.19 932.691,2007.19 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="945.338,2002.19 929.338,2007.19 945.338,2012.19 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="763.211,1059.46 1153.85,1059.46 1153.85,2138.25 916.185,2138.25 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="928.832,2133.25 912.832,2138.25 928.832,2143.25 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="50.6385,218.054 299.179,218.054 299.179,1059.46 361.506,1059.46 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="348.858,1064.46 364.858,1059.46 348.858,1054.46 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1537.19" y="786.84" width="410.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1537.19" y="786.84" width="410.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1742.39" y="805.84">BlockSnippetNodeTranspiler</text>
+    <rect style="fill: #ffffff" x="1537.19" y="814.84" width="410.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1537.19" y="814.84" width="410.4" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1540.19" y="828.84">-node: Node</text>
+    <rect style="fill: #ffffff" x="1537.19" y="834.84" width="410.4" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1537.19" y="834.84" width="410.4" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1540.19" y="848.84">+constructor(node:Node): BlockSnippetNodeTranspiler</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1540.19" y1="850.44" x2="1932.89" y2="850.44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1540.19" y="864.84">+transpileNode(childNodeTranspiler:Function): String</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1538.13" y="916.682" width="410.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1538.13" y="916.682" width="410.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1743.33" y="935.682">DirectSnippetNodeTranspiler</text>
+    <rect style="fill: #ffffff" x="1538.13" y="944.682" width="410.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1538.13" y="944.682" width="410.4" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1541.13" y="958.682">-node: Node</text>
+    <rect style="fill: #ffffff" x="1538.13" y="964.682" width="410.4" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1538.13" y="964.682" width="410.4" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1541.13" y="978.682">+constructor(node:Node): DirectSnippetNodeTranspiler</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1541.13" y1="980.282" x2="1941.53" y2="980.282"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1541.13" y="994.682">+transpileNode(childNodeTranspiler:Function): String</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1538.55" y="1047.08" width="418.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1538.55" y="1047.08" width="418.1" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1747.6" y="1066.08">CommentSnippetNodeTranspiler</text>
+    <rect style="fill: #ffffff" x="1538.55" y="1075.08" width="418.1" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1538.55" y="1075.08" width="418.1" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1541.55" y="1089.08">-node: Node</text>
+    <rect style="fill: #ffffff" x="1538.55" y="1095.08" width="418.1" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1538.55" y="1095.08" width="418.1" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1541.55" y="1109.08">+constructor(node:Node): CommentSnippetNodeTranspiler</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1541.55" y1="1110.68" x2="1949.65" y2="1110.68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1541.55" y="1125.08">+transpileNode(childNodeTranspiler:Function): String</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1540.5" y="1186.46" width="410.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1540.5" y="1186.46" width="410.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1745.7" y="1205.46">RegularNodeTranspiler</text>
+    <rect style="fill: #ffffff" x="1540.5" y="1214.46" width="410.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1540.5" y="1214.46" width="410.4" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1543.5" y="1228.46">-node: Node</text>
+    <rect style="fill: #ffffff" x="1540.5" y="1234.46" width="410.4" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1540.5" y="1234.46" width="410.4" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1543.5" y="1248.46">+constructor(node:Node): RegularNodeTranspiler</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1543.5" y1="1250.06" x2="1897.7" y2="1250.06"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1543.5" y="1264.46">+transpileNode(childNodeTranspiler:Function): String</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="1938,647.032 1976.59,647.032 1976.59,800.84 1954.29,800.84 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1966.94,795.84 1950.94,800.84 1966.94,805.84 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="1938,647.032 2012.29,647.032 2012.29,930.682 1955.24,930.682 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1967.88,925.682 1951.88,930.682 1967.88,935.682 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="1938,647.032 2044.4,647.032 2044.4,1061.08 1963.35,1061.08 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1976,1056.08 1960,1061.08 1976,1066.08 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="1938,647.032 2075.32,647.032 2075.32,1200.46 1957.6,1200.46 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1970.25,1195.46 1954.25,1200.46 1970.25,1205.46 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1491.42" y="1367.92" width="633.81" height="158.75"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1491.42" y="1367.92" width="633.81" height="158.75"/>
+    <rect style="fill: #ffffff" x="1491.42" y="1347.92" width="81" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1491.42" y="1347.92" width="81" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1493.42" y="1362.92">validation</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1533.04" y="1417.27" width="395" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1533.04" y="1417.27" width="395" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1730.54" y="1436.27">ResultValidator</text>
+    <rect style="fill: #ffffff" x="1533.04" y="1445.27" width="395" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1533.04" y="1445.27" width="395" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1536.04" y="1459.27">-resultString: String</text>
+    <rect style="fill: #ffffff" x="1533.04" y="1465.27" width="395" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1533.04" y="1465.27" width="395" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1536.04" y="1479.27">+constructor(resultString:String): ResultValidator</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1536.04" y1="1480.87" x2="1921.04" y2="1480.87"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1536.04" y="1495.27">+validate(callback:Function): ResultValidator</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="50.6385,218.054 50.6385,218.271 195.451,218.271 195.451,89.3405 1333.95,89.3405 1333.95,671.032 1528.6,671.032 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1515.95,676.032 1531.95,671.032 1515.95,666.032 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="50.6385,218.054 50.6385,217.959 232.448,217.959 232.448,122.103 1280.14,122.103 1280.14,1431.27 1526.34,1431.27 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1513.69,1436.27 1529.69,1431.27 1513.69,1426.27 "/>
+  </g>
+</svg>
