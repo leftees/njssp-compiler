@@ -10,11 +10,11 @@ engines:
       - javascript
 ratings:
   paths:
-  - "lib"
-  - "test"
+  - "lib/**/*"
+  - "test/**/*"
 exclude_paths:
   - "test/mocha.opts"
-  - "analysis"
+  - "analysis/**/*"
   - ".codeclimate.yml"
   - ".gitignore"
   - ".gitattributes"
