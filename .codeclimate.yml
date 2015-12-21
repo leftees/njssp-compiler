@@ -1,0 +1,26 @@
+engines:
+  eslint:
+    enabled: true
+  fixme:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - javascript
+ratings:
+  paths:
+  - "lib"
+  - "test"
+exclude_paths:
+  - "test/mocha.opts"
+  - "analysis"
+  - ".codeclimate.yml"
+  - ".gitignore"
+  - ".gitattributes"
+  - ".eslintignore"
+  - ".erslintrc"
+  - ".travis.yml"
+  - "LICENSE"
+  - "package.json"
+  - "Readme.md"
